@@ -1,12 +1,70 @@
-Pellet DispensoMixer V2
+# Pellet DispensoMixer V2
+
+Developed by Pablo Campoy at IMDEA Materials Institute.
 
 
 
-
-Project Overview
+## Project Overview
 
 The Pellet DispensoMixer V2 is an updated and improved version of the original Pellet DispensoMixer developed at IMDEA. The main objective of this redesign was to increase system reliability, simplify assembly and maintenance procedures, and improve the overall integration of the platform.
 
-The new version replaces the previous actuation system with NEMA 17 stepper motors and consolidates the entire electronic architecture into a single control board, reducing wiring complexity and improving maintainability.
+The new version replaces the previous actuation system with NEMA 17 stepper motors and consolidates the electronic architecture into a single control board, reducing wiring complexity and improving maintainability.
 
 This repository contains the complete design package generated during the development of the project, including CAD models, manufacturing files, electrical schematics, and supporting documentation.
+
+## Key Features
+
+- NEMA 17 stepper motor actuation.
+- Single integrated control PCB.
+- Modular and maintainable mechanical architecture.
+- Complete CAD documentation.
+- Manufacturing-ready 3D models.
+- Electrical schematics and wiring documentation.
+- Improved assembly workflow.
+- Open and editable design files.
+
+## Improvements Over the Original Pellet DispensoMixer
+
+This project represents a significant redesign of the original Pellet DispensoMixer platform.
+
+| Feature | Original Version | V2 |
+|---|---|---|
+| Actuation System | Legacy motor configuration | NEMA 17 stepper motors |
+| Electronics | Multiple interconnected modules | Single integrated PCB |
+| Wiring | Distributed wiring | Simplified wiring architecture |
+| Assembly | More complex integration | Easier assembly and maintenance |
+| Reliability | Baseline performance | Improved robustness |
+| Documentation | Partial documentation | Complete GitHub repository |
+
+## Bill of Materials
+
+| Component | Quantity |
+|---|---|
+| NEMA 17 Stepper Motor | 2 |
+| Stepper Motor Drivers | 2 |
+| Microcontroller | 1 |
+| Power Supply | 1 |
+| Custom Control PCB | 1 |
+| Mechanical Fasteners | Assorted |
+| 3D Printed Components | Multiple |
+
+## Repository Structure
+
+```text
+CAD/
+├── Assembly/
+├── Native/
+├── STEP/
+└── STL/
+
+Electronics/
+├── Schematics/
+├── PCB/
+└── Wiring/
+
+Images/
+├── FinalAssembly.png
+└── PrototypePhotos/
+
+Documentation/
+└── AdditionalFiles/

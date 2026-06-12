@@ -40,11 +40,10 @@ This project represents a significant redesign of the original Pellet DispensoMi
 
 | Component | Quantity |
 |---|---|
-| NEMA 17 Stepper Motor | 2 |
-| Stepper Motor Drivers | 2 |
-| Microcontroller | 1 |
+| NEMA 17 Stepper Motor | 8 |
+| A4988 Stepper Motor Driver | 8 |
+| BTT Octopus Pro Main Control Board | 1 |
 | Power Supply | 1 |
-| Custom Control PCB | 1 |
 | Mechanical Fasteners | Assorted |
 | 3D Printed Components | Multiple |
 
@@ -53,9 +52,11 @@ This project represents a significant redesign of the original Pellet DispensoMi
 ```text
 CAD/
 ├── Assembly/
-├── Native/
-├── STEP/
-└── STL/
+  ├── FreeCAD/
+  ├── STEP/
+├── Parts/
+  ├── FreeCAD/
+  ├── STEP/
 
 Electronics/
 ├── Schematics/

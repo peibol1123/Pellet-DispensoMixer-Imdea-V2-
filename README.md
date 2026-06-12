@@ -1,6 +1,6 @@
 # Pellet DispensoMixer V2
 
-Developed by Pablo Campoy at IMDEA Materials Institute.
+Developed at IMDEA Materials Institute.
 
 
 

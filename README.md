@@ -73,5 +73,6 @@ Images/
 
 Documentation/
 └── AdditionalFiles/
-'''
-## Key Features
+```
+## Assembly Instructions
+

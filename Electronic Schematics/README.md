@@ -114,6 +114,7 @@ The following image provides a reference for the BIGTREETECH Octopus Pro V1.1 pi
 <p align="center">
   <img src="btt_octopus_pro_1.0_pins.png" alt="BTT Octopus Pro V1.1 Pinout" width="900">
 </p>
+---
 
 ## Suggested Cable Color Code
 

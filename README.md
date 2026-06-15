@@ -2,8 +2,9 @@
 
 Developed at IMDEA Materials Institute.
 
-
-![Assembly Image](Images/Image%201.png)
+<p align="center">
+  <img src="Images/Image%201.png" alt="Pellet DispensoMixer V2 Assembly" width="750">
+</p>
 
 ## Project Overview
 

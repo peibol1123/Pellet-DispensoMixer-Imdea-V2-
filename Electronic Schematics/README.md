@@ -20,7 +20,8 @@ The objective of this documentation is to make the electronic assembly easier to
 
 ---
 
-## System Architecture
+## Electronics Connections
+### System Architecture
 
 The electronics are centralized around the **BIGTREETECH Octopus Pro V1.1**, which acts as the main control board for the complete dispensing system.
 
@@ -43,7 +44,7 @@ BIGTREETECH Octopus Pro V1.1
 This architecture simplifies the wiring compared with the previous version of the system, since all motor control is handled from a single main board.
 
 
-## Power Connection
+### Power Connection
 
 The external power supply is connected to the main power input of the Octopus Pro board.
 
@@ -63,7 +64,7 @@ Do not power the board if the polarity or voltage configuration is uncertain.
 
 ---
 
-## Stepper Driver Installation
+### Stepper Driver Installation
 
 Each **A4988 stepper motor driver** is inserted into one of the driver sockets of the Octopus Pro board.
 
@@ -87,31 +88,12 @@ Important notes:
 
 ---
 
-## Stepper Motor Connections
+### Stepper Motor Connections
 
-Each **NEMA 17 stepper motor** is connected to its corresponding motor output connector on the Octopus Pro board.
 
-| Motor   | Octopus Pro Output |
-| ------- | ------------------ |
-| Motor 1 | `MOTOR0`           |
-| Motor 2 | `MOTOR1`           |
-| Motor 3 | `MOTOR2`           |
-| Motor 4 | `MOTOR3`           |
-| Motor 5 | `MOTOR4`           |
-| Motor 6 | `MOTOR5`           |
-| Motor 7 | `MOTOR6`           |
-| Motor 8 | `MOTOR7`           |
 
 Each motor has two internal coils. Before connecting the motors, identify the coil pairs using a multimeter in continuity mode.
 
-Typical motor wiring:
-
-| Motor Coil    | Board Output |
-| ------------- | ------------ |
-| Coil A wire 1 | `A1`         |
-| Coil A wire 2 | `A2`         |
-| Coil B wire 1 | `B1`         |
-| Coil B wire 2 | `B2`         |
 
 If a motor vibrates but does not rotate, the coil pairs may be incorrectly connected. If the motor rotates in the opposite direction, reverse the motor direction in firmware or swap one coil pair.
 

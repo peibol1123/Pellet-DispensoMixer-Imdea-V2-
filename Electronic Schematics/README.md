@@ -91,6 +91,7 @@ Do not connect or disconnect stepper motors while the board is powered
 
 Before connecting the ST-LINK/V2 programmer, make sure that the required USB drivers are installed on the host computer.
 The official ST-LINK drivers can be downloaded from [STMicroelectronics](https://www.st.com/en/development-tools/stsw-link009.html):
+
 It is also recommended to install  [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html), which provides the required tools for firmware upload, device detection, memory inspection, and debugging, however the firmware is gonna upload through Arduino Ide:
 
 

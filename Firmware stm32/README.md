@@ -6,15 +6,9 @@ The firmware is compiled and uploaded using the **Arduino IDE**. The system is b
 
 ---
 
-## Required Hardware
+A detailed tutorial on configuring and programming STM32 microcontrollers with STM32Duino can be found in the following blog post:
 
-| Component                    | Purpose                                       |
-| ---------------------------- | --------------------------------------------- |
-| BIGTREETECH Octopus Pro V1.1 | Main control board                            |
-| ST-LINK/V2                   | SWD programming and debugging interface       |
-| USB-C cable                  | Connection between the board and the computer |
-| External power supply        | Power input for the board and stepper motors  |
-| NEMA 17 stepper motors       | Actuation of the dispensing modules           |
+[Luis Llamas – Programming STM32 with Arduino IDE and a USB-TTL Converter](https://www.luisllamas.es/programar-stm32-con-ide-de-arduino-y-conversor-usb-ttl/)
 
 ---
 

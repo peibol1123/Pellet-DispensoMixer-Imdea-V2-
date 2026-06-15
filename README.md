@@ -82,5 +82,8 @@ The motor module is first positioned onto the base structure. The upper rotor mo
 <p align="center">
   <img src="Images/Image%207.png" alt="Pellet DispensoMixer V2 Assembly" width="750">
 </p>
-
+Module-to-module alignment is achieved through a locating pin.
+<p align="center">
+  <img src="Images/Image%205.png" alt="Pellet DispensoMixer V2 Assembly" width="750">
+</p>
 This approach reduces the need for additional fasteners, simplifies the assembly process, and makes the system easier to disassemble, inspect, and maintain.

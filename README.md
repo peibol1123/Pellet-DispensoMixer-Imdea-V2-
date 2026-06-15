@@ -2,6 +2,7 @@
 
 Developed at IMDEA Materials Institute.
 
+</> Markdown
 ![Assembly Image](C:\Users\pablo.campoy\OneDrive - FUNDACIÓN IMDEA MATERIALES\Pictures\Screenshots\Screenshot 2026-06-12 130642.png)
 
 ## Project Overview

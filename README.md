@@ -76,3 +76,11 @@ Documentation/
 ```
 ## Assembly Instructions
 
+The Pellet DispensoMixer V2 follows a screwless cascade assembly method. Each module is inserted vertically on top of the previous component, using the geometry of the base to guide the assembly.
+
+The motor module is first positioned onto the base structure. The upper rotor mount is then inserted above the motor, aligning the central shaft and the surrounding guide columns. Finally, the rotor is aligned on top of the cylindrical chamber and inserted onto the motor shaft.
+<p align="center">
+  <img src="Images/Image%207.png" alt="Pellet DispensoMixer V2 Assembly" width="750">
+</p>
+
+This approach reduces the need for additional fasteners, simplifies the assembly process, and makes the system easier to disassemble, inspect, and maintain.

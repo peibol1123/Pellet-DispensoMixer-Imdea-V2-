@@ -210,21 +210,3 @@ This color code is recommended to reduce wiring mistakes during programming and 
 * If any component becomes excessively hot, power off the system immediately.
 
 ---
-
-## Reference Images
-
-### Octopus Pro Pinout
-
-![BTT Octopus Pro Pinout](btt_octopus_pro_1.0_pins.png)
-
-### Motor Wiring Diagram
-
-![Motor Wiring Diagram](Electronic%20Schematic%20%281%29.png)
-
-### ST-LINK/V2 Pinout Reference
-
-![ST-LINK Pinout Reference](Referencia%20St%20link%20v2.jpg)
-
-### ST-LINK to Octopus Pro Wiring
-
-![ST-LINK to Octopus Wiring](Untitled.png)

@@ -110,34 +110,10 @@ Recommended ST-LINK/V2 to Octopus Pro connection:
 
 The `RST` connection is optional for basic SWD communication, but it is recommended because it allows the programmer to connect using hardware reset if needed.
 
-Minimum 4-wire SWD connection:
-
-```text
-ST-LINK VCCIN / VAPP  →  Octopus 3V3
-ST-LINK GND           →  Octopus GND
-ST-LINK SWDIO         →  Octopus SWDIO
-ST-LINK SWCLK         →  Octopus SWCLK
-```
-
-Recommended 5-wire SWD connection:
-
-```text
-ST-LINK VCCIN / VAPP  →  Octopus 3V3
-ST-LINK GND           →  Octopus GND
-ST-LINK SWDIO         →  Octopus SWDIO
-ST-LINK SWCLK         →  Octopus SWCLK
-ST-LINK NRST          →  Octopus RST
-```
-
-Important notes:
-
-* Do not connect 5 V to the Octopus SWD connector.
-* The `3V3` connection is used as a voltage reference for the ST-LINK.
-* The Octopus Pro should be powered through USB-C or its normal power input.
-* Use SWD mode in STM32CubeProgrammer.
-* If the board is not detected, try a lower SWD frequency and use `Connect under reset`.
-
----
+The following image provides a reference for the BIGTREETECH Octopus Pro V1.1 pinout.
+<p align="center">
+  <img src="btt_octopus_pro_1.0_pins.png" alt="BTT Octopus Pro V1.1 Pinout" width="900">
+</p>
 
 ## Suggested Cable Color Code
 

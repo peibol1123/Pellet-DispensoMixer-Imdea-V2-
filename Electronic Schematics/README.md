@@ -67,18 +67,9 @@ Do not power the board if the polarity or voltage configuration is uncertain.
 ### Stepper Driver Installation
 
 Each **A4988 stepper motor driver** is inserted into one of the driver sockets of the Octopus Pro board.
-
-| Driver         | Board Location        |
-| -------------- | --------------------- |
-| A4988 Driver 1 | Motor driver socket 1 |
-| A4988 Driver 2 | Motor driver socket 2 |
-| A4988 Driver 3 | Motor driver socket 3 |
-| A4988 Driver 4 | Motor driver socket 4 |
-| A4988 Driver 5 | Motor driver socket 5 |
-| A4988 Driver 6 | Motor driver socket 6 |
-| A4988 Driver 7 | Motor driver socket 7 |
-| A4988 Driver 8 | Motor driver socket 8 |
-
+<p align="center">
+  <img src="Electronic%20Schematic.png" alt="Electronic Schematic" width="800">
+</p>
 Important notes:
 
 * Check the orientation of each A4988 driver before powering the board.

@@ -17,7 +17,7 @@ This repository contains the complete design package generated during the develo
 ## Key Features
 
 - NEMA 17 stepper motor actuation.
-- Single integrated control PCB.
+- Single integrated control PCB: BIGTREETECH Octopus V1.1
 - Modular and maintainable mechanical architecture.
 - Complete CAD documentation.
 - Manufacturing-ready 3D models.
@@ -31,12 +31,11 @@ This project represents a significant redesign of the original Pellet DispensoMi
 
 | Feature | Original Version | V2 |
 |---|---|---|
-| Actuation System | Legacy motor configuration | NEMA 17 stepper motors |
-| Electronics | Multiple interconnected modules | Single integrated PCB |
-| Wiring | Distributed wiring | Simplified wiring architecture |
-| Assembly | More complex integration | Easier assembly and maintenance |
+| Actuation System | 28BYJ-48 unipolar geared stepper motor | NEMA 17 stepper motors |
+| Electronics | 8x Arduino UNO | Single integrated PCB |
+| Assembly | More complex integration | Tool-free cascade assembly with vertically stacked components and sequential insertion |
 | Reliability | Baseline performance | Improved robustness |
-| Documentation | Partial documentation | Complete GitHub repository |
+
 
 ## Bill of Materials
 
@@ -46,9 +45,12 @@ This project represents a significant redesign of the original Pellet DispensoMi
 | A4988 Stepper Motor Driver | 8 |
 | BTT Octopus Pro Main Control Board | 1 |
 | Power Supply | 1 |
-| Mechanical Fasteners | Assorted |
-| 3D Printed Components | Multiple |
-
+| 3D Printed Components |  |
+| Feed Ramp | 8 |
+| Module Coupling Pin | 8 |
+| Rotor Mount | 8 |
+| Rotor | 8 |
+| Structural Frame | 8 |
 ## Repository Structure
 
 ```text

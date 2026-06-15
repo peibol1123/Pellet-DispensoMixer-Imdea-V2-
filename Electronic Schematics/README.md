@@ -120,8 +120,8 @@ The following image provides a reference for the BIGTREETECH Octopus Pro V1.1 pi
 | Signal                    | Recommended Color |
 | ------------------------- | ----------------- |
 | `3V3` / voltage reference | Red               |
-| `GND`                     | Black             |
-| `SWDIO`                   | Blue              |
+| `GND`                     | Brown             |
+| `SWDIO`                   | Orange              |
 | `SWCLK`                   | Yellow            |
 | `RST`                     | Green             |
 

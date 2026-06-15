@@ -62,41 +62,9 @@ STM32 MCU based boards
 
 ---
 
-## Opening the Firmware
-
-1. Open the Arduino IDE.
-2. Open the main firmware `.ino` file.
-3. Make sure that all required firmware files are located inside the same project folder.
-4. Verify that any required libraries are installed before compiling.
-
-A typical firmware folder structure is:
-
-```text
-Firmware/
-├── PelletDispensoMixerV2.ino
-├── config.h
-├── motor_control.h
-├── motor_control.cpp
-└── README.md
-```
 
 ---
 
-## Arduino IDE Board Configuration
-
-In the Arduino IDE, configure the board for the STM32 microcontroller used by the Octopus Pro V1.1.
-
-A typical configuration is:
-
-```text
-Board: Generic STM32F4 Series
-Upload method: STM32CubeProgrammer (SWD)
-Programmer: ST-LINK
-```
-
-Before uploading, verify the exact STM32 microcontroller model installed on the board. The specific MCU reference is usually printed on the main microcontroller package.
-
----
 
 ## ST-LINK/V2 Connection
 
@@ -105,31 +73,8 @@ The ST-LINK/V2 is used to connect to the STM32 microcontroller through the SWD i
 The SWD wiring documentation is available in:
 
 ```text
-Electronics/Schematics/
+Electronics Schematics/
 ```
-
-Minimum SWD connection:
-
-```text
-ST-LINK VCCIN / VAPP  →  Octopus 3V3
-ST-LINK GND           →  Octopus GND
-ST-LINK SWDIO         →  Octopus SWDIO
-ST-LINK SWCLK         →  Octopus SWCLK
-```
-
-Recommended SWD connection:
-
-```text
-ST-LINK VCCIN / VAPP  →  Octopus 3V3
-ST-LINK GND           →  Octopus GND
-ST-LINK SWDIO         →  Octopus SWDIO
-ST-LINK SWCLK         →  Octopus SWCLK
-ST-LINK NRST          →  Octopus RST
-```
-
-The `RST` connection is optional, but it is recommended because it allows the programmer to connect using hardware reset if required.
-
----
 
 ## Compiling the Firmware
 
@@ -158,23 +103,8 @@ To upload the firmware:
 3. Power the Octopus Pro board using USB-C or the external power supply.
 4. Open the firmware project in Arduino IDE.
 5. Select the correct STM32 board configuration.
-6. Select the upload method:
+6. Select the upload method: St Link v2
 
-```text
-STM32CubeProgrammer (SWD)
-```
-
-7. Upload the firmware using:
-
-```text
-Sketch → Upload
-```
-
-or press:
-
-```text
-Ctrl + U
-```
 
 After the upload is complete, the board should restart and run the uploaded firmware.
 

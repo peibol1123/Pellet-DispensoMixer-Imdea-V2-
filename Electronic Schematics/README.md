@@ -8,14 +8,15 @@ The objective of this documentation is to make the electronic assembly easier to
 
 ---
 
-## Files Included
+## Main Components
 
-| File                           | Description                                           |
-| ------------------------------ | ----------------------------------------------------- |
-| `btt_octopus_pro_1.0_pins.png` | Reference pinout of the BIGTREETECH Octopus Pro board |
-| `Electronic Schematic (1).png` | General wiring diagram for the NEMA 17 stepper motors |
-| `Referencia St link v2.jpg`    | ST-LINK/V2 pinout reference                           |
-| `Untitled.png`                 | ST-LINK/V2 to Octopus Pro SWD wiring diagram          |
+| Component                    | Function                                     |
+| ---------------------------- | -------------------------------------------- |
+| BIGTREETECH Octopus Pro V1.1 | Main control board                           |
+| A4988 stepper motor drivers  | Motor driver modules                         |
+| NEMA 17 stepper motors       | Actuation of the dispensing modules          |
+| External power supply        | Power input for the control board and motors |
+| ST-LINK/V2                   | SWD programming and debugging interface      |
 
 ---
 
@@ -41,19 +42,6 @@ BIGTREETECH Octopus Pro V1.1
 
 This architecture simplifies the wiring compared with the previous version of the system, since all motor control is handled from a single main board.
 
----
-
-## Main Components
-
-| Component                    | Function                                     |
-| ---------------------------- | -------------------------------------------- |
-| BIGTREETECH Octopus Pro V1.1 | Main control board                           |
-| A4988 stepper motor drivers  | Motor driver modules                         |
-| NEMA 17 stepper motors       | Actuation of the dispensing modules          |
-| External power supply        | Power input for the control board and motors |
-| ST-LINK/V2                   | SWD programming and debugging interface      |
-
----
 
 ## Power Connection
 

@@ -3,7 +3,7 @@
 Developed at IMDEA Materials Institute.
 
 
-![Assembly Image](Images/Image 1.png)
+Images/Image 1.png
 
 ## Project Overview
 

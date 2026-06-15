@@ -89,9 +89,8 @@ Do not connect or disconnect stepper motors while the board is powered
 
 ## ST-LINK/V2 Programming Connection
 
-The Octopus Pro can be programmed or debugged through its SWD connector using an **ST-LINK/V2** programmer.
-
-The SWD connector on the Octopus Pro is labelled as:
+Before connecting the ST-LINK/V2 programmer, make sure that the required USB drivers are installed on the host computer.
+The official ST-LINK drivers can be downloaded from [STMicroelectronics](https://www.st.com/en/development-tools/stsw-link009.html):
 
 ```text
 3V3 | SWDIO | GND | SWCLK | RST

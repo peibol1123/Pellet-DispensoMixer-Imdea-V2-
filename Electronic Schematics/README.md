@@ -62,9 +62,11 @@ Before powering the system, check:
 
 Do not power the board if the polarity or voltage configuration is uncertain.
 
----
 
-### Stepper Driver Installation
+
+### Stepper Driver and Stepper Motor Installation
+
+Each motor has two internal coils. Before connecting the motors, identify the coil pairs using a multimeter in continuity mode.
 
 Each **A4988 stepper motor driver** is inserted into one of the driver sockets of the Octopus Pro board.
 <p align="center">
@@ -77,18 +79,11 @@ Important notes:
 * Use heatsinks if the drivers operate for long periods or under high current.
 * Adjust the current limit of each driver before continuous operation.
 
----
-
-### Stepper Motor Connections
-
-
-
-Each motor has two internal coils. Before connecting the motors, identify the coil pairs using a multimeter in continuity mode.
-
-
 If a motor vibrates but does not rotate, the coil pairs may be incorrectly connected. If the motor rotates in the opposite direction, reverse the motor direction in firmware or swap one coil pair.
 
-Do not connect or disconnect stepper motors while the board is powered.
+Do not connect or disconnect stepper motors while the board is powered
+
+
 
 ---
 

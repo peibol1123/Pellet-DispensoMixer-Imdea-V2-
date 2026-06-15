@@ -3,7 +3,7 @@
 Developed at IMDEA Materials Institute.
 
 </> Markdown
-![Assembly Image](Images/AssemblyImage.png)
+![Assembly Image](Images/Image 1.png)
 
 ## Project Overview
 

@@ -125,8 +125,10 @@ The following image provides a reference for the BIGTREETECH Octopus Pro V1.1 pi
 | `SWCLK`                   | Yellow            |
 | `RST`                     | Green             |
 
-This color code is recommended to reduce wiring mistakes during programming and debugging.
-
+The following figure is provided as a reference for the wiring configuration.
+<p align="center">
+  <img src="St%20Link%20V2%20Connection%20with%20BTT%20Octopus%20Pro%20v1.1.png" alt="ST-LINK V2 Connection with BTT Octopus Pro V1.1" width="900">
+</p>
 ---
 
 ## Electronics Assembly Procedure

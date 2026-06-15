@@ -94,11 +94,10 @@ The official ST-LINK drivers can be downloaded from [STMicroelectronics](https:/
 
 It is also recommended to install  [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html), which provides the required tools for firmware upload, device detection, memory inspection, and debugging, however the firmware is gonna upload through Arduino Ide:
 
-
-```text
-3V3 | SWDIO | GND | SWCLK | RST
-```
-
+The following image provides a reference for the ST-LINK/V2 pinout.
+<p align="center">
+  <img src="St%20link%20v2%20References.png" alt="ST Link V2 References" width="800">
+</p>
 Recommended ST-LINK/V2 to Octopus Pro connection:
 
 | ST-LINK/V2 20-pin Connector | Signal                             | Octopus Pro SWD Connector |

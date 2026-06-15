@@ -3,7 +3,7 @@
 Developed at IMDEA Materials Institute.
 
 </> Markdown
-![Assembly Image]([C:\Users\pablo.campoy\OneDrive - FUNDACIÓN IMDEA MATERIALES\Pictures\Screenshots\Screenshot 2026-06-12 130642.png](https://github.com/peibol1123/Pelllet-DispensoMixer-Imdea-V2-/blob/main/Images/Image%201.png))
+![Assembly Image](Images/AssemblyImage.png)
 
 ## Project Overview
 
